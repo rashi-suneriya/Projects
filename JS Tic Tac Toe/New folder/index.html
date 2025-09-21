@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+   <div class="msg-container">
+    <p id="msg">Winner</p>
+    <button id="new-btn">New Game</button>
+   </div>
+    <main>
+        <h1> Tic Tac Tae</h1> 
+        <div class="contener">
+        <div class="game">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+        </div>
+
+        <input type="text" id="player1"
+        placeholderlder="player1">
+        <input type="text" id="player2"
+        placeholderlder="player2" >
+        <!-- <button onclick="startGame()">start Game</button>  -->
+        
+
+
+         <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp">0</p>
+            <p>comp</p>
+        </div>
+    </div>
+
+        <button id="reset-btn">Reset Game</button> 
+
+         <!-- <button id="winner-btn"> winner</button>
+         <button id="rashi-btn">x</button>
+          <button id="rashi-btn">0</button> --> 
+    </main>
+
+   
+    <script src="app.js"></script>
+</body>
+</html>
